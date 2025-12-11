@@ -1,0 +1,24 @@
+const swiper = new Swiper('.mySwiper', {
+    slidesPerView: 3,
+    spaceBetween: 20,
+    loop: true,
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+});
+
+
+window.addEventListener("scroll", function () {
+    const nav = document.querySelector("nav");
+
+    if (window.scrollY > 40) {
+        nav.classList.add("scrolled");
+    } else {
+        nav.classList.remove("scrolled");
+    }
+});
