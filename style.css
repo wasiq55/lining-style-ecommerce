@@ -297,6 +297,30 @@ footer svg path {
     }
 }
 
+/* ================= MOBILE FIX ================= */
+@media(max-width:768px){
+
+    .hero{
+        height:100svh;
+    }
+
+    .hero-video{
+        display:none;
+    }
+
+    .hero-pic{
+        display:block;
+    }
+
+    .hero-content h1{
+        font-size:30px;
+    }
+
+    .hero-content p{
+        font-size:15px;
+    }
+}
+
 /* ================= MOBILE & TABLET (≤ 768px) ================= */
 
 @media (max-width: 768px) {
