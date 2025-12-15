@@ -351,3 +351,30 @@ footer svg path {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+/* MOBILE & TABLET */
+@media (max-width: 768px) {
+
+    .hero {
+        height: 60vh;                 /* smaller hero on mobile */
+    }
+
+    .hero-video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;            /* fill screen */
+        object-position: center top;  /* better focus (change if needed) */
+    }
+}
+
+/* SMALL MOBILE */
+@media (max-width: 480px) {
+
+    .hero {
+        height: 50vh;                 /* compact hero */
+    }
+
+    .hero-video {
+        object-position: center center; /* balanced framing */
+    }
+}
