@@ -1,4 +1,3 @@
-# lining-style-ecommerce
 
 <!-- 🔥 Animated Header -->
 
@@ -40,7 +39,7 @@
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="C:\Users\Md Wasiq Anwar\OneDrive\Pictures\Screenshots\Screenshot 2025-12-23 160557.png" width="80%" />
+  <img src="Screenshot 2025-12-23 160557.png" width="80%" />
   <img src="./assets/products.png" width="80%" />
 </p>
 
